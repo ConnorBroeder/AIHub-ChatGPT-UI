@@ -32,7 +32,7 @@ body {
 ::-webkit-scrollbar-track {
   background:transparent;
   border-radius: 10px;
-
+position: absolute;
 }
 
 /* Handle */
@@ -79,10 +79,11 @@ body {
   background-color: #272525;
   width: 100%;
   height: 100%;
-  padding: 3%;
+  padding: 5%;
   padding-right: 1%;
   border-radius: 30px;
   overflow: none;
+
 }
 
 
@@ -120,7 +121,7 @@ body {
 .chat {
   width: 100%;
   max-width: 1280px;
-  margin: 5px auto;
+  margin: 0 auto;
   border-radius: 40px;
   display: flex;
   flex-direction: row;
