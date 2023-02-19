@@ -105,7 +105,7 @@ body {
 /* hides scrollbar */
 #chat_container::-webkit-scrollbar {
   display: auto;
-  scroll-margin: 5px;
+  scroll-margin: 20px;
 }
 
 .wrapper {
