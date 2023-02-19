@@ -64,13 +64,14 @@ body {
   width: 100%;
   height: 100%;
   overflow-y: scroll;
-margin: 2%;
+
   display: flex;
   flex-direction: column;
   gap: 10px;
 
   -ms-overflow-style: none;
   scrollbar-width: none;
+scrollbaf
   padding-bottom: 20px;
   scroll-behavior: smooth;
 }
@@ -78,8 +79,6 @@ margin: 2%;
 /* hides scrollbar */
 #chat_container::-webkit-scrollbar {
   display: auto;
-  align-self: flex-end;
-  position: absolute;
 }
 
 .wrapper {
