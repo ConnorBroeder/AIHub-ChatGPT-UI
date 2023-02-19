@@ -9,6 +9,7 @@
 
 body {
   background: #202020;
+  padding: 0%;
 }
 
 #app {
@@ -19,39 +20,46 @@ body {
   flex-direction: column;
   align-items: center;
   justify-content: space-between;
+  padding: 5%;
 }
 
 ::-webkit-scrollbar {
   width: 10px;
+
 }
 
 /* Track */
 ::-webkit-scrollbar-track {
-  background: transparent;
+  background:transparent;
+  border-radius: 10px;
 
 }
 
 /* Handle */
 ::-webkit-scrollbar-thumb {
   background: #676767;
+  border-radius: 10px;
+
 }
 
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
   background: #abaaaa;
+  
 }
 
 #background_container {
   flex: 1;
-  position: absolute;
   display: flex;
-  background-color: #4f4f4f;
-  width: 95%;
+  background-color: #1e1d1d;
+  width: 100%;
   height: 100%;
+  padding: 2%;
   align-items: center;
   justify-content: center;
   border-radius: 40px;
   align-self: center;
+  
 }
 
 /* #chat_box_background {
@@ -69,10 +77,10 @@ body {
   align-items: center;
   justify-content: space-between;
   background-color: #272525;
-  width: 95%;
-  height: 95%;
-  margin: 3%;
+  width: 100%;
+  height: 100%;
   padding: 3%;
+  padding-right: 1%;
   border-radius: 30px;
   overflow: none;
 }
@@ -97,8 +105,6 @@ body {
 /* hides scrollbar */
 #chat_container::-webkit-scrollbar {
   display: auto;
-  align-self: flex-end;
-  position: absolute;
 }
 
 .wrapper {
@@ -115,7 +121,7 @@ body {
   width: 100%;
   max-width: 1280px;
   margin: 0 auto;
-  border-radius: 30px;
+  border-radius: 40px;
   display: flex;
   flex-direction: row;
   align-items: flex-start;
@@ -171,7 +177,7 @@ form {
   max-width: 1280px;
   margin: 0 auto;
   padding: 10px;
-  background: #40414F;
+  background: #2b2b2d;
   border-radius: 40px;
   position: relative;
   align-self: center;
@@ -201,6 +207,7 @@ button {
 }
 
 form img {
-  width: 30px;
-  height: 30px;
+  width: 20px;
+  height: 20px;
+  margin-right: 5px;
 }
