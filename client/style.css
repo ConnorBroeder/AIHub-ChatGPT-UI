@@ -76,7 +76,7 @@ body {
 
 /* hides scrollbar */
 #chat_container::-webkit-scrollbar {
-  display: none;
+  display: auto;
 }
 
 .wrapper {
@@ -123,11 +123,8 @@ body {
 
 .message {
   flex: 1;
-
   color: #dcdcdc;
   font-size: 20px;
-border-radius: 20px;
-padding: 5px;
   max-width: 100%;
   overflow-x: scroll;
 
