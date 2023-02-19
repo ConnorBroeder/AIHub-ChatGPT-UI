@@ -24,6 +24,7 @@ body {
 
 #background_container {
   flex: 1;
+  position: absolute;
   display: flex;
   background-color: #4f4f4f;
   width: 95%;
@@ -44,6 +45,7 @@ body {
 
 #background_box {
   display: flex;
+  position: relative;
   flex-direction: column;
   align-items: center;
   justify-content: space-between;
@@ -60,14 +62,14 @@ body {
   flex: 1;
   width: 95%;
   height: 100%;
-  overflow-y: scroll;
+  overflow: auto;
   justify-content: end;
   display: flex;
   flex-direction: column;
   gap: 10px;
 
-  -ms-overflow-style: none;
-  scrollbar-width: none;
+  -ms-overflow-style: auto;
+  scrollbar-width: 10px;
 
   padding-bottom: 20px;
   scroll-behavior: smooth;
