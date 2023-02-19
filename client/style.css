@@ -71,7 +71,7 @@ body {
 
   -ms-overflow-style: none;
   scrollbar-width: none;
-
+scrollbaf
   padding-bottom: 20px;
   scroll-behavior: smooth;
 }
@@ -79,6 +79,8 @@ body {
 /* hides scrollbar */
 #chat_container::-webkit-scrollbar {
   display: auto;
+  align-self: flex-end;
+  position: absolute;
 }
 
 .wrapper {
