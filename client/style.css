@@ -8,19 +8,39 @@
 }
 
 body {
-  background: #343438;
+  background: #202020;
 }
 
 #app {
   width: 100vw;
   height: 100vh;
-  background: #343541;
+  background: #242425;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: space-between;
 }
 
+::-webkit-scrollbar {
+  width: 10px;
+  display: none;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #3c3c3cbc;
+
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #636363;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #f87676;
+}
 
 #background_container {
   flex: 1;
@@ -55,7 +75,7 @@ body {
   margin: 3%;
   padding: 3%;
   border-radius: 30px;
-  overflow: scroll;
+  overflow: none;
 }
 
 
@@ -71,7 +91,6 @@ body {
 
   -ms-overflow-style: none;
   scrollbar-width: none;
-scrollbaf
   padding-bottom: 20px;
   scroll-behavior: smooth;
 }
@@ -79,6 +98,8 @@ scrollbaf
 /* hides scrollbar */
 #chat_container::-webkit-scrollbar {
   display: auto;
+  align-self: flex-end;
+  position: absolute;
 }
 
 .wrapper {
@@ -143,7 +164,7 @@ scrollbaf
 
 /* hides scrollbar */
 .message::-webkit-scrollbar {
-  display: auto;
+  display: none;
 }
 
 form {
