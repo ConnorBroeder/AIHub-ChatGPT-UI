@@ -96,7 +96,6 @@ body {
   gap: 10px;
   -ms-overflow-style: none;
   scrollbar-width: none;
-  scroll-margin-block-start: 12px;
   padding-bottom: 20px;
   scroll-behavior: smooth;
 }
