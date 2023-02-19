@@ -23,18 +23,17 @@ body {
 
 ::-webkit-scrollbar {
   width: 10px;
-  display: auto;
 }
 
 /* Track */
 ::-webkit-scrollbar-track {
-  background: #3c3c3cbc;
+  background: transparent;
 
 }
 
 /* Handle */
 ::-webkit-scrollbar-thumb {
-  background: #636363;
+  background: #676767;
 }
 
 /* Handle on hover */
