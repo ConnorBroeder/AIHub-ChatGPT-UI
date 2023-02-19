@@ -55,6 +55,7 @@ body {
   margin: 3%;
   padding: 3%;
   border-radius: 30px;
+  overflow: scroll;
 }
 
 
@@ -128,7 +129,7 @@ body {
   font-size: 20px;
   max-width: 100%;
   overflow-x: scroll;
-border-radius: 20px;
+  border-radius: 20px;
   /*
    * white space refers to any spaces, tabs, or newline characters that are used to format the CSS code
    * specifies how white space within an element should be handled. It is similar to the "pre" value, which tells the browser to treat all white space as significant and to preserve it exactly as it appears in the source code.
