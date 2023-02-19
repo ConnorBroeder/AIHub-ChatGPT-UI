@@ -39,7 +39,6 @@ body {
 ::-webkit-scrollbar-thumb {
   background: #676767;
   border-radius: 10px;
-  padding-left: 5px;
 }
 
 /* Handle on hover */
@@ -89,7 +88,7 @@ body {
 
 #chat_container {
   flex: 1;
-  width: 100%;
+  width: 90%;
   height: 100%;
   overflow-y: scroll;
 
