@@ -61,16 +61,16 @@ body {
 
 #chat_container {
   flex: 1;
-  width: 95%;
+  width: 100%;
   height: 100%;
-  overflow: auto;
-  justify-content: end;
+  overflow-y: scroll;
+
   display: flex;
   flex-direction: column;
   gap: 10px;
 
-  -ms-overflow-style: auto;
-  scrollbar-width: 10px;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
 
   padding-bottom: 20px;
   scroll-behavior: smooth;
@@ -78,7 +78,7 @@ body {
 
 /* hides scrollbar */
 #chat_container::-webkit-scrollbar {
-  display: auto;
+  display: none;
 }
 
 .wrapper {
@@ -88,13 +88,14 @@ body {
 
 .ai {
   background: #40414F;
+  border-radius: 25px;
 }
 
 .chat {
   width: 100%;
   max-width: 1280px;
   margin: 0 auto;
-
+  border-radius: 30px;
   display: flex;
   flex-direction: row;
   align-items: flex-start;
@@ -129,7 +130,6 @@ body {
   font-size: 20px;
   max-width: 100%;
   overflow-x: scroll;
-  border-radius: 20px;
   /*
    * white space refers to any spaces, tabs, or newline characters that are used to format the CSS code
    * specifies how white space within an element should be handled. It is similar to the "pre" value, which tells the browser to treat all white space as significant and to preserve it exactly as it appears in the source code.
@@ -137,7 +137,6 @@ body {
    * The default value for the white-space property in CSS is "normal". This tells the browser to collapse multiple white space characters into a single space, and to wrap text onto multiple lines as needed to fit within its container.
   */
   white-space: pre-wrap;
-
   -ms-overflow-style: none;
   scrollbar-width: none;
 }
