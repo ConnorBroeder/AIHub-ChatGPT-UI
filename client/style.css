@@ -94,7 +94,6 @@ body {
   display: flex;
   flex-direction: column;
   gap: 10px;
-  scroll-margin: 20px;
   -ms-overflow-style: none;
   scrollbar-width: none;
   scroll-margin-block-start: 12px;
