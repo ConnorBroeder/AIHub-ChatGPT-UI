@@ -8,7 +8,7 @@
 }
 
 body {
-  background: #343541;
+  background: #343438;
 }
 
 #app {
@@ -22,12 +22,43 @@ body {
   justify-content: space-between;
 }
 
+
+#background_container {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  background-color: #4f4f4f;
+  width: 95%;
+  height: 100%;
+  margin: 5%;
+  border-radius: 30px;
+  align-self: center;
+}
+
+#chat_box_background {
+  background-color: #272525;
+  width: 25%;
+  height: 95%;
+  margin: 3%;
+  border-radius: 30px;
+}
+
+#background_box {
+
+  background-color: #272525;
+  width: 70%;
+  height: 95%;
+  margin: 3%;
+  border-radius: 30px;
+}
+
+
 #chat_container {
   flex: 1;
-  width: 100%;
+  width: 95%;
   height: 100%;
   overflow-y: scroll;
-
+  justify-content: end;
   display: flex;
   flex-direction: column;
   gap: 10px;
@@ -101,7 +132,7 @@ body {
    * The pre-wrap value allows the browser to wrap long lines of text onto multiple lines if necessary.
    * The default value for the white-space property in CSS is "normal". This tells the browser to collapse multiple white space characters into a single space, and to wrap text onto multiple lines as needed to fit within its container.
   */
-  white-space: pre-wrap; 
+  white-space: pre-wrap;
 
   -ms-overflow-style: none;
   scrollbar-width: none;
@@ -113,25 +144,23 @@ body {
 }
 
 form {
-  width: 100%;
+  width: 80%;
   max-width: 1280px;
   margin: 0 auto;
   padding: 10px;
   background: #40414F;
-
+  border-radius: 20px;
   display: flex;
-  flex-direction: row;
   gap: 10px;
 }
 
 textarea {
   width: 100%;
-
   color: #fff;
   font-size: 18px;
-
   padding: 10px;
   background: transparent;
+  resize: none;
   border-radius: 5px;
   border: none;
   outline: none;

@@ -11,15 +11,22 @@
 
 <body>
   <div id="app">
-    <div id="chat_container"></div>
+    <div id="background_container">
+      <div id="chat_box_background"></div>
 
-    <form>
-      <textarea name="prompt" rows="1" cols="1" placeholder="Ask codex..."></textarea>
-      <button type="submit"><img src="assets/send.svg" alt="send" />
-    </form>
+      <div id="background_box">
+        <div id="chat_container">
+
+        <form>
+          <textarea name="prompt" rows="1" cols="1" placeholder="Ask codex..."></textarea>
+          <button type="submit"><img src="assets/send.svg" alt="send" />
+        </form>
+      </div>
+      </div>
+      <script type="module" src="script.js"></script>
+    </div>
   </div>
 
-  <script type="module" src="script.js"></script>
 </body>
 
 </html>
