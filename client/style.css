@@ -25,7 +25,6 @@ body {
 
 ::-webkit-scrollbar {
   width: 5px;
-  left: -10px;
 }
 
 /* Track */
@@ -52,6 +51,7 @@ body {
   display: flex;
   background-color: #1e1d1d;
   width: 100%;
+  position: absolute;
   height: 100%;
   padding: 2%;
   align-items: center;
@@ -91,7 +91,7 @@ body {
   width: 90%;
   height: 100%;
   overflow-y: scroll;
-
+right: 10px;
   display: flex;
   flex-direction: column;
   gap: 10px;
