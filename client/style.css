@@ -78,7 +78,7 @@ body {
 
 /* hides scrollbar */
 #chat_container::-webkit-scrollbar {
-  display: none;
+  display: auto;
 }
 
 .wrapper {
